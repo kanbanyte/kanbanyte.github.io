@@ -1,4 +1,7 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
+title: Kanbanyte Website
+description: Jekyll is a static site generator with built-in support for GitHub Pages and a simplified build process.
 show_downloads: true
 theme: jekyll-theme-cayman
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
