@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Kanbanyte Website Discussions
+    url: https://github.com/kanbanyte/kanbanyte.github.io/discussions
+    about: "Please make a Discussion, Issues can be created from Discussions."

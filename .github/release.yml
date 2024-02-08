@@ -1,0 +1,14 @@
+# .github/release.yml
+
+changelog:
+  exclude:
+    labels:
+      - duplicate
+  categories:
+    - title: Dropped
+      labels:
+        - invalid
+        - wontfix
+    - title: Other Changes
+      labels:
+        - "*"
