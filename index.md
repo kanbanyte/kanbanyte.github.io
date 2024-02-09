@@ -1,7 +1,5 @@
 ---
 layout: default
-github:
-    is_project_page: true
 ---
 
 Text can be **bold**, *italic*, or ~~strikethrough~~.
@@ -37,6 +35,7 @@ int main(int argc, char* argv[]) {
 }
 ```
 
+#### Header 4
 ```cs
 // C# code with syntax highlighting.
 using System;
@@ -55,23 +54,15 @@ namespace HelloWorld {
 }
 ```
 
-#### Header 4
+##### Header 5
 * This is an unordered list following a header.
 * This is an unordered list following a header.
 * This is an unordered list following a header.
 
-##### Header 5
+###### Header 6
 1. This is an ordered list following a header.
 2. This is an ordered list following a header.
 3. This is an ordered list following a header.
-
-###### Header 6
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
 
 ### There's a horizontal rule below this.
 
@@ -108,6 +99,6 @@ namespace HelloWorld {
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-```
+```txt
 The final element.
 ```
