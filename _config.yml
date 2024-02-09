@@ -1,7 +1,8 @@
 title: Kanbanyte Website
-description: Jekyll is a static site generator with built-in support for GitHub Pages and a simplified build process.
+description: GitHub Pages powered by Jekyll.
 show_downloads: true
 theme: jekyll-theme-cayman
+repo: https://github.com/kanbanyte/kanbanyte.github.io
 kramdown:
-  syntax_highlighter_opts:
-    disable : true
+    syntax_highlighter_opts:
+        disable: true

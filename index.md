@@ -1,5 +1,7 @@
 ---
 layout: default
+github:
+    is_project_page: true
 ---
 
 Text can be **bold**, *italic*, or ~~strikethrough~~.
@@ -8,12 +10,12 @@ Text can be **bold**, *italic*, or ~~strikethrough~~.
 
 There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs.
+There should be whitespace between paragraphs.\
 We recommend including a README, or a file with information about your project.
 
 # Header 1
-This is a normal paragraph following a header.
-GitHub is a code hosting platform for version control and collaboration.
+This is a normal paragraph following a header.\
+GitHub is a code hosting platform for version control and collaboration.\
 It lets you and others work together on projects from anywhere.
 
 ## Header 2
@@ -64,12 +66,12 @@ namespace HelloWorld {
 3. This is an ordered list following a header.
 
 ###### Header 6
-| head1 | head two | three |
-| :- | :- | :- |
-| ok | good swedish fish | nice |
-| out of stock| good and plenty | nice |
-| ok | good `oreos` | hmm |
-| ok | good `zoute` drop | yum |
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
 
 ### There's a horizontal rule below this.
 
