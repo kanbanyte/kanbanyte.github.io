@@ -1,4 +1,4 @@
 # About kanbanyte/kanbanyte.github.io
-> kanbanyte/kanbanyte.github.io is a Jekyll repository.
+> kanbanyte/kanbanyte.github.io is a Astro repository.
 >
-> The /index.md will appear on the organisation's static website.
+> The src/pages/index.mdx will appear on the organisation's static website.

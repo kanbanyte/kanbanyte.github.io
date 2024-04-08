@@ -1,0 +1,32 @@
+---
+// Welcome to Astro!
+// Everything between these triple-dash code fences is your "component frontmatter".
+// It never runs in the browser.
+// console.log("This runs in your terminal, not the browser!");
+
+import Header from "@components/header.astro";
+import Footer from "@components/footer.astro";
+
+const { title } = Astro.props.frontmatter || Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="icon" href="/kanbanyte_cat.png" />
+		<link rel="stylesheet" href="src/styles/global.css" type="text/css" />
+		<link rel="stylesheet" href="src/styles/jekyll-theme-cayman.scss" />
+		<title>{title}</title>
+	</head>
+	<body>
+		<Header />
+		<main id="content" class="main-content" role="main">
+			<!-- Markdown content is injected here -->
+			<slot />
+			<Footer />
+		</main>
+	</body>
+</html>

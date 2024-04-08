@@ -1,0 +1,23 @@
+{
+	"name": "kanbanyte.github.io",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"@astrojs/mdx": "^2.2.4",
+		"@astrojs/sitemap": "^3.1.2",
+		"astro": "^4.5.16"
+	},
+	"devDependencies": {
+		"sass": "^1.74.1"
+	}
+}

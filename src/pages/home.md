@@ -1,10 +1,12 @@
 ---
-layout: default
+title: Home Page
+layout: ../layouts/default.astro
+description: This is the landing Page for index.
 ---
 
 Text can be **bold**, *italic*, or ~~strikethrough~~.
 
-[Link to another page](./nav/another-page).
+[Link to another page](./another-page).
 
 There should be whitespace between paragraphs.
 

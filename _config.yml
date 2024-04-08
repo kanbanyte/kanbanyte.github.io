@@ -1,8 +1,0 @@
-title: Kanbanyte Website
-description: GitHub Pages powered by Jekyll.
-show_downloads: true
-theme: jekyll-theme-cayman
-repo: https://github.com/kanbanyte/kanbanyte.github.io
-kramdown:
-    syntax_highlighter_opts:
-        disable: true
