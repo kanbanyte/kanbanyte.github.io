@@ -1,18 +1,17 @@
 ---
-// Welcome to Astro!
-// Everything between these triple-dash code fences is your "component frontmatter".
-// It never runs in the browser.
-// console.log("This runs in your terminal, not the browser!");
-
+// Styles
 import "@styles/global.css";
 import "@styles/jekyll-theme-cayman.scss";
 
+// Components
 import Header from "@components/header.astro";
 import Footer from "@components/footer.astro";
 
+// Component Frontmatter or Astro Property
 const { title } = Astro.props.frontmatter || Astro.props;
 ---
 
+<!-- Template -->
 <!doctype html>
 <html lang="en">
 	<head>
@@ -31,3 +30,4 @@ const { title } = Astro.props.frontmatter || Astro.props;
 		</main>
 	</body>
 </html>
+<!-- /Template -->

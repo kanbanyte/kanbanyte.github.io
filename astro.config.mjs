@@ -28,4 +28,14 @@ export default defineConfig({
 			transformers: [],
 		},
 	},
+	// Never match URLs that include a trailing slash.
+	trailingSlash: 'never',
+	build: {
+		// Astro will generate an HTML file named for each page route.
+		// format: 'file',
+		// Astro will generate HTML files exactly as they appear in your source folder.
+		format: 'preserve',
+		// Project styles are sent in external stylesheets.
+		inlineStylesheets: 'never'
+	}
 });
